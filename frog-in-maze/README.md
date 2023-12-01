@@ -110,7 +110,9 @@ For any row of matrix, max number of element which is not zero is 4. It means,  
 we can only store element not zero with hashmap, and only multiple element not zero to accelerate the matrix multiple. 
 Actually, if you don't do this optimization, you can't pass every test cases. 
 
-
+## avoid stop iteration early
+In first several iterations,  because the start cell may be far away from exit. So the  probability of exit cell may be 
+kept in 0 for many iterations,  so we need to add a delay count to avoid stop iteration early. 
 
 
 
