@@ -8,6 +8,7 @@ correct if its (absolute) difference from the true answer is not greater than 10
 
 ## recall Markov Chain
 https://en.wikipedia.org/wiki/Markov_chain  a classic example is 
+
 ![img.png](img.png)
 
 State E has 0.3 probability to stay, and 0.7 probability to transfer to A.
